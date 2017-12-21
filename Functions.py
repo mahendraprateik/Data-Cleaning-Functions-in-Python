@@ -5,20 +5,12 @@
 
 """
 
-READ THIS
 
-This assignment is the most challenging assignment so far. Please make sure you start early to finish it on time.
-I will give you helper functions and explain the concepts on 10/30/2017
-This class will prepare your datasetr for model building.
 General pipeline before you build a predictive model is
 Our general variable treatment follows the pipeline below
 pipeline = [drop_nan_col, drop_zero_var_col, drop_zero_car_col,drop_high_levels, 
             replace_missing, encode_target, transform, create_dummies]
             
-Your task is to implement these functions.
-You can use pandas functions or any functions you want, such as get_dummies, sum, np.exp, etc. use built-in functions
-in this assignment.
-
 """
 
 
